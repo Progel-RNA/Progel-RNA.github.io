@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import Title from './slides/slide-title';
+import Summary from './slides/slide-summary';
+import Team from './slides/slide-team';
+import Advisors from './slides/slide-advisors';
+import Problem from './slides/slide-problem';
+import Solution from './slides/slide-solution';
+import Product from './slides/slide-product';
+import Model from './slides/slide-model';
+import Market from './slides/slide-market';
+import Competitors from './slides/slide-competitors';
+import Timeline from './slides/slide-timeline';
+import Contact from './slides/slide-contact';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title/>
     </div>
   );
 }

@@ -1,0 +1,205 @@
+/*
+colours:
+
+#ff6700 - orange
+#ebebeb - white
+#f0f0f0 - grey
+#3a6ea5 - blue
+#004e98 - dark blue
+
+*/
+
+h1 {
+  font-family: Bahnschrift;
+  font-size: 32pt
+}
+
+h2 {
+  font-family: Bahnschrift;
+  font-size: 24pt
+}
+
+h3 {
+  font-family: Bahnschrift;
+  font-size: 20pt
+}
+
+p {
+  font-family: Bahnschrift;
+  font-size: 16pt;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-family: Bahnschrift;
+  font-size: 16pt;
+}
+
+a {
+  text-decoration: inherit;
+  color: black;
+}
+
+a:hover {
+  background-color: #004e98;
+  color: #ebebeb;
+}
+
+a:active {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+
+.container {
+  width: 100%;
+  height: 115vmin;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+.container > img {
+  position: absolute;
+  width: 100%;
+  opacity: 50%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  height: 120vmin;
+}
+
+.title > div {
+  padding-bottom: 20vmin;
+}
+
+.theme-dark {
+  background-color: #004e98;
+  color: #ebebeb;
+}
+
+.theme-light {
+  background-color: #f0f0f0;
+  color: #004e98;
+}
+
+.black  {
+  color: black;
+}
+
+.dark {
+  color: #004e98;
+}
+
+.light {
+  color: #ebebeb;
+}
+
+.summary {
+  width: 40%;
+  padding-right: 30%;
+  text-align: justify;
+}
+
+/*
+.problem {
+  height: 200vmin;
+  align-items: flex-start;
+}
+*/
+
+.problem > h1 {
+  padding: 20px;
+}
+
+.problem-paths {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.problem-selector > img {
+  width: 250px;
+  padding: 40px;
+}
+
+.product > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product > div > img {
+  width: 150px;
+  padding: 20px;
+  padding-left: 20%;
+  object-fit: contain;
+}
+
+.members {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.members > div {
+  width: 25%;
+  margin: 10px;
+  padding: 2%;
+}
+
+.members > div > img {
+  width: 175px;
+}
+
+.solution-list-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: auto;
+}
+
+.solution-list {
+  padding: 20px;
+  border-color: #ff6700;
+  border-style: solid;
+  border-radius: 30px;
+  margin: 20px;
+  width: 40%
+}
+
+.solution-list > ul > li {
+  padding: 10px
+}
+
+.customer {
+  height: 400px;
+  object-fit: cover;
+}
+
+.contact-button {
+  padding: 10px 40px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.timeline {
+  width: 100%;
+}

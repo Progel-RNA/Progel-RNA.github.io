@@ -1,0 +1,109 @@
+/*
+colours:
+
+#ff6700 - orange
+#ebebeb - white
+#f0f0f0 - grey
+#3a6ea5 - blue
+#FF9900 - orange
+
+*/
+
+h1 {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 60pt
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 24pt
+}
+
+a {
+  text-decoration: inherit;
+  color: #ffffff;
+}
+
+a:hover {
+  background-color: #FF9900;
+  color: #ffffff;
+}
+
+a:active {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+
+.container {
+  width: 100%;
+  height: 115vmin;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.title > .slide {
+  border-radius: 150vmin;
+  height: 150vmin;
+  width: 150vmin;
+  background-color: #FF9900;
+  overflow-x: scroll;
+}
+
+.title > .slide > img {
+  width: 100%;
+}
+
+.title > .slide > h2 {
+  padding-top: 10px;
+}
+
+.title {
+  height: 100vmin;
+}
+
+.title-line {
+  background-color: red;
+  width: 50%;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.theme-dark {
+  background-color: #FF9900;
+  color: #ebebeb;
+}
+
+.theme-light {
+  background-color: #f0f0f0;
+  color: #FF9900;
+}
+
+.black  {
+  color: black;
+}
+
+.dark {
+  color: #FF9900;
+}
+
+.light {
+  color: #ebebeb;
+}
+
+.contact-button {
+  padding: 10px 40px;
+  border-style: solid;
+  border-radius: 20px;
+}
