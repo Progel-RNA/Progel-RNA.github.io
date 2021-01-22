@@ -26,8 +26,8 @@ a {
 }
 
 a:hover {
-  background-color: #FF9900;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #FF9900;
 }
 
 a:active {
@@ -74,7 +74,7 @@ a:active {
 }
 
 .title-line {
-  background-color: red;
+  background-color: #ffffff;
   width: 50%;
   height: 10px;
   margin-bottom: 20px;
